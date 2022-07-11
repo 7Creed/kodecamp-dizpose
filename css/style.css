@@ -329,9 +329,9 @@ input[type= text], input[type= email], input[type= number], input[type="password
         left: 60%;
     }
 
-    #hero .first, #hero .secnd {
+    /* #hero .first, #hero .secnd {
         width: 100%;
-    }
+    } */
 
     .btn-section, .btn-sectionII {
         width: 50%;
