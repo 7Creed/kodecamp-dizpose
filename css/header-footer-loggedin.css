@@ -27,7 +27,7 @@ footer {
 
 .notification-counter {
     width: 23%;
-    height: 1.5vh;
+    min-height: 1.5vh;
     border-radius: 50%;
     background: red;
     color: #ffff;
@@ -40,7 +40,7 @@ footer {
 @media (max-width: 1025px) {
     .notification-counter {
         width: 20%;
-        height: 3vh;
+        min-height: 3vh;
     }
     
 }
