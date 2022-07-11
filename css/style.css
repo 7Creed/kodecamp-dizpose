@@ -41,16 +41,16 @@ footer {
 
 
 #hero .outskirt {
-    padding: 100px 70px;
+    padding: 70px 70px;
 }
 
 #hero .first, #hero .secnd {
     width: 46%;
 }
 
-label {
+/* label {
     color: #000000;
-}
+} */
 
 input[type= text], input[type= email], input[type= number], input[type="password"] {
     border-radius: 10px;
@@ -175,6 +175,16 @@ input[type= text], input[type= email], input[type= number], input[type="password
         border-radius: 7px !important;
     }
 
+
+
+    .nv-link:hover {
+        color: #17A200 !important;
+        border-bottom: 4px solid #17A200 !important;
+    }
+
+    .item:hover {
+        color: #17A100 !important;
+    }
 
 
     #hero .outskirt {
