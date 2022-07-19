@@ -1,20 +1,3 @@
-// let show = document.getElementById("show");
-
-// let close = document.getElementById("close");
-
-// close.addEventListener("click", function() {
-
-//     // alert('click me')
-//     close.classList.add('hide-eye');
-//     show.classList.add("view-eye");
-// })
-
-// show.addEventListener("click", function() {
-//     close.classList.remove("hide-eye")
-//     show.classList.remove("view-eye")
-    
-// })
-
 
 const togglePassword = document.querySelector("#togglePassword");
         const password = document.querySelector("#exampleInputPassword1");
@@ -27,8 +10,6 @@ const togglePassword = document.querySelector("#togglePassword");
             // toggle the icon
             this.classList.toggle("bi-eye");
         });
-
-//<i class="bi bi-eye fs-4"></i>
 
 
         function isFilled(){
